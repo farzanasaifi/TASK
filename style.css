@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    background-color: rgb(34, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div{
+    height: 80vmin;
+    width: 80vmin;
+    background-color: rgb(125, 125, 129);
+    
+}
+
+.heading{
+    text-align: center;
+    text-decoration:underline;
+}
+input{
+    background-color:rgb(196, 191, 191);
+    width: 35vmin;
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vmin;
+    width: 15vmin;
+
+}
